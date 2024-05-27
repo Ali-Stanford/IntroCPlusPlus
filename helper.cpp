@@ -1,15 +1,16 @@
 void generateNarrativeOfNoChampion() {
 
     cout << "As the dust settles over the rugged landscape, the sun dips below the horizon, casting long shadows over a tale of unfulfilled ambitions and dreams. This is the end of the movie, where the harsh reality rings clear: no one could reach the treasure. The quest that drove our characters through relentless challenges ends not with the triumph of victory but with the quiet of unclaimed fortunes, leaving the treasure still buried in the heart of the West, a silent witness to the trials and tribulations of those who dared to seek it." << endl;
-
+    return;
 }
 
-void generateNarrativeOfChampion(Charachter A) {
+void generateNarrativeOfChampion(Character A) {
 
     cout << "In the vast, sunbaked expanse of the Wild West, a solitary figure emerges victorious against all odds. " + A.getName() + " standing triumphant at the position of " << A.getPosition() << ", clutches the elusive treasure. With " << A.getGoldCoin() << " gold coins jingling in their pocket, " << A.getSilverCoin() << " silver coins shimmering in the sunlight, and " << A.getBronzeCoin() << " bronze coins bearing the weight of their journey, " << A.getName() << " stands resolute, their trusty " << A.getGunType() << " gun by their side. This moment marks not just the end of a treacherous path but the beginning of a legend, as " << A.getName() << " etches their name in the annals of the West as the undisputed winner of the treasure." << endl;
+    return;
 }
 
-void generateNarrativeOfDuel(Charachter Victim, Charachter Murderer) {
+void generateNarrativeOfDuel(Character Victim, Character Murderer) {
 
     cout << "In the rugged landscape of this Western movie, a dramatic duel unfolds. "
         << Victim.getName() << ", armed with " << Victim.getGunType() << ", and holding "

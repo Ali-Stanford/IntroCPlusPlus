@@ -3,6 +3,7 @@ void swap(Character& a, Character& b) {
     Character temp = a;
     a = b;
     b = temp;
+    return ;
 }
 
 void sortVector(vector<Character>& vec) {
@@ -13,4 +14,5 @@ void sortVector(vector<Character>& vec) {
             }
         }
     }
+    return ;
 }

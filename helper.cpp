@@ -23,5 +23,6 @@ void generateNarrativeOfDuel(Character Victim, Character Murderer) {
         << Victim.getName() << " falls at step " << Victim.getPosition() << ", their journey ending amidst the dust and echoes of gunshots, while "
         << Murderer.getName() << ", at step " << Murderer.getPosition() << ", carries the heavy burden of survival, weighed down by both their spoils and the cost of their actions."
         << endl;
+    
     return;
 }
